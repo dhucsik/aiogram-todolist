@@ -1,1 +1,4 @@
-BOT_TOKEN = "6184487638:AAE-nXzfnDOZWOe3q05su0VrL-KSMPFJWC0"
+from os import getenv
+
+
+BOT_TOKEN = getenv("token_telegram")
